@@ -1,0 +1,49 @@
+*{box-sizing:border-box;}
+body{
+	background:black;
+	font-size: 21px;
+	font-family: 'Montserrat', sans-serif;
+	background: url('http://vector-magz.com/wp-content/uploads/2013/09/muscle-man-clip-art.gif');
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.container{
+	width: 600px;
+    background-color: rgba(255,255,255,0.9);
+    padding: 15px;
+    margin: 0 auto;
+    border:20px dashed white;
+    border-right: 15px dashed white;
+    margin-right:auto;
+}
+img{
+	max-width: 100%;
+}
+
+a{
+	color:red;
+	text-decoration: none;
+	transition-property:background;
+	transition-duration:1s;
+	transitoin-time-funtion:linear;
+}
+a:hover {
+	font-style: italic;
+	background-color: yellow;
+}
+
+ul{
+	list-style-type:none;
+	padding-left: 0; 
+}
+
+li{
+	margin-bottom: 1em;
+}
+
+#table-of-contents li{
+	margin-bottom:0;
+}
+
+h1{margin-top: 0;}
