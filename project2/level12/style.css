@@ -1,0 +1,38 @@
+#nav{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	background-color: yellow;
+    border-radius: 50px;
+    border-radius: 50px;
+
+}
+
+#right {position: fixed;
+    top: 50%;
+    display: block;
+    width: 37px;
+    height: 78px;
+    background: #00ffbb;
+    margin-top: -42px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 0 0;
+	right:0;}
+
+#left {position: fixed;
+    top: 50%;
+    display: block;
+    width: 37px;
+    height: 78px;
+    background: #00ffbb;
+    margin-top: -42px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 0 0;
+	left:0;}
+
+a{ text-decoration: none;}
+     
