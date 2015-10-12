@@ -1,4 +1,6 @@
-#nav{
+a:visited { 
+    color: pink;
+}#nav{
 	position: fixed;
 	bottom: 50px;
 	right: 50px;
