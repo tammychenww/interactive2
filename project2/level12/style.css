@@ -1,4 +1,53 @@
+#nav-container a:link,
+#nav-container a:visited {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    /* I would also put your font declarations here. Did you want to use a custom font for your navigation, like on your homepage? */
+}
 
+#left {
+    position: fixed;
+    top: 50%;
+    display: block;
+    width: 37px;
+    height: 78px;
+    background: #00ffbb;
+    margin-top: -42px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 0 0;
+    left: 0;
+}
+
+#right {
+    position: fixed;
+    top: 50%;
+    display: block;
+    width: 37px;
+    height: 78px;
+    background: #00ffbb;
+    margin-top: -42px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 0 0;
+    right: 0;
+}
+
+#nav {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+
+
+
+/*
 
 
 #nav{
@@ -37,5 +86,5 @@
     padding: 14px 0 0;
 	left:0;}
 
-a{ text-decoration: none;}
+a{ text-decoration: none;}*/
      
