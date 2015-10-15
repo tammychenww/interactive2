@@ -14,10 +14,11 @@ body {
 	background: white;
 	position: relative;
 }
-
+/*canvas one*/
 .canvas.one {
 	background: #DA9618;
 }
+
 
 .object {
 	position: absolute;
@@ -81,14 +82,14 @@ body {
 	bottom:-10px;
 }
 
-.water-glass-container .water-level{
+/*.water-glass-container .water-level{
 
 	width: 100px;
 	height: 25px;
 	border-radius: 50px;
 	background: white;
 	bottom:-12px;
-}
+}*/
 
 .shadow {
 
@@ -101,5 +102,129 @@ body {
 	opacity: .5;
 	background: -webkit-radial-gradient(grey, #DED8D8); /* Safari 5.1 to 6.0 */
 }
+
+/*canvas two*/
+
+.canvas.two {
+	background: #F9EF64;
+}
+
+.canvas.two .squash {
+	background: #E67015;
+	height:110px;
+	width: 121px;
+	border-radius:50%;
+	bottom:250px;
+	left:220px;
+	
+}
+
+/*magnifier*/
+.magnifier {
+	background: black;
+	height:15px;
+	width: 126px;
+	
+	bottom:220px;
+	left:160px;
+	}
+
+.magnifier .top {
+	background: white;
+	height:10px;
+	width: 126px;
+	border-radius:50%;
+	bottom:10px;
+	left:00px;
+	border: 3.5px solid
+	}
+.magnifier .bottom {
+	background: black;
+	height:8px;
+	width: 126px;
+	border-radius:50%;
+	bottom:-4px;
+	left:0px;
+	}
+
+.magnifier .handle {
+	background: black;
+	height:10px;
+	width: 80px;
+	border-radius:20%;
+	bottom:-10px;
+	left:100px;
+	transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+-webkit-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+-moz-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+-o-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+-ms-transform: rotate(15deg) scale(1) skew(1deg) translate(0px);
+}
+
+/*magnifier*/
+
+.vase-container{
+	width:100px;
+	height:325px;
+	bottom:200px;
+	right:450px;
+	}
+
+.vase{
+	width:100px;
+	height:200px;
+	background:#fff;
+	opacity:.5;
+	bottom:0
+
+
+
+}
+
+
+.vase-bottom{width:100px;
+	height:25px;
+	border-radius:50%;
+	bottom:-12px;
+	background:#fff}
+
+
+.vase-top{width:100px;
+	height:25px;
+	border-radius:50%;
+	top:-12px;
+	background:#fff}
+
+
+.flower.one{left:20px;}
+
+
+.flower.two{left:40px;
+	
+
+}
+
+
+.flower.three{left:60px;}
+
+
+.stem{background:green;
+	width:8px;
+	height:275px;}
+
+
+.petal{
+	  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid purple;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+      left: -35px;
+
+	}
+
 
 
