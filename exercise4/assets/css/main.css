@@ -1,0 +1,105 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas.one {
+	background: #DA9618;
+}
+
+.object {
+	position: absolute;
+}
+
+/*sphere*/
+.sphere{
+	background: white;
+	height: 302px;
+	width: 302px;
+	border-radius: 50%;
+	bottom: 200px;
+	left:200px;
+	z-index: 2;
+}
+
+/*squash*/
+
+.squash {
+	background: #E67015;
+	height:120px;
+	width: 151px;
+	border-radius:50%;
+	bottom:250px;
+	left:400px;
+	z-index: 1;
+}
+
+/*water*/
+.water-glass-container{
+	height: 100px;
+	width: 100px;
+	background: white;
+	left: 220px;
+	bottom: 250px;
+	opacity: .8;
+}
+
+.water-glass-container .glass{
+	/*border-top: 225px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;*/
+	height: 225px;
+	width: 100px;
+	background: white;
+	opacity:0.5;
+
+
+}
+
+
+
+.water-glass-container .bottom{
+
+	width: 100px;
+	height: 25px;
+	border-radius: 50%;
+	background: #F5D7AA;
+	bottom:-10px;
+}
+
+.water-glass-container .water-level{
+
+	width: 100px;
+	height: 25px;
+	border-radius: 50px;
+	background: white;
+	bottom:-12px;
+}
+
+.shadow {
+
+	width: 280px;
+	height: 100px;
+	
+	bottom: 180px;
+	left: 270px;
+	border-radius: 50%;
+	opacity: .5;
+	background: -webkit-radial-gradient(grey, #DED8D8); /* Safari 5.1 to 6.0 */
+}
+
+
