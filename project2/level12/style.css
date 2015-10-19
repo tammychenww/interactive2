@@ -5,6 +5,7 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: black;
+
 }
 
 #left {
@@ -46,6 +47,8 @@
     background-color: yellow;
     border-radius: 50px;
     color: black;
+    height: auto; 
+    width: auto;
 }
 
 
