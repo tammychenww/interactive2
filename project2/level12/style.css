@@ -3,7 +3,8 @@
     color: #000;
     text-decoration: none;
     text-align: center;
-    /* I would also put your font declarations here. Did you want to use a custom font for your navigation, like on your homepage? */
+    font-family: 'Raleway', sans-serif;
+    color: black;
 }
 
 #left {
@@ -12,13 +13,14 @@
     display: block;
     width: 37px;
     height: 78px;
-    background: #00ffbb;
+    background: #00D6FF;
     margin-top: -42px;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 17px;
     padding: 14px 0 0;
     left: 0;
+    z-index: 1;
 }
 
 #right {
@@ -27,13 +29,14 @@
     display: block;
     width: 37px;
     height: 78px;
-    background: #00ffbb;
+    background: #00D6FF;
     margin-top: -42px;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 17px;
     padding: 14px 0 0;
     right: 0;
+    z-index: 1;
 }
 
 #nav {
@@ -42,6 +45,7 @@
     right: 50px;
     background-color: yellow;
     border-radius: 50px;
+    color: black;
 }
 
 
