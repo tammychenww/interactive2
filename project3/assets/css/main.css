@@ -15,7 +15,9 @@ body{
 	position: relative;
 }
 
-.h .v1 {
+.h .v1,
+.p .v1,
+.n .v1  {
 	position: absolute;
 	left:0;
 	height: 100%;
@@ -23,7 +25,8 @@ body{
 	background: black;
 }
 
-.h .v2 {
+.h .v2,
+.n .v2  {
 	position: absolute;
 	right:0;
 	height: 100%;
