@@ -225,6 +225,14 @@ body {
       left: -35px;
 
 	}
+.square {
+	width: 80px;
+	height: 40px;
+	background-color: grey;
+	bottom: -30px;
+	left:140px;
+
+}
 
 
 
