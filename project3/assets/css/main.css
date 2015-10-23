@@ -6,43 +6,67 @@ body{
 		margin: 100px;
 	}
 .box{
-	width: 130px;
+	width: 120px;
 	height: 250px;
 	background-color: #ED1A4C;
 	display: inline-block;
-	margin: 0 30px 30px 0;
+	margin: 0 50px 50px 0;
 	position: relative;
 }
 
-.a .v1{
+.a .v1,
+.b .v1{
 	position: absolute;
 	left:0;
 	height: 100%;
-	width: 30px;
+	width: 25px;
 	background: black;
 }
 
-.a .v2{
+.a .v2,
+.b .v2{
 	position: absolute;
 	right:0;
 	height: 100%;
-	width: 30px;
+	width: 25px;
 	background: black;
 }
-
-.a .h1{
+/*top*/
+.a .h1,
+.b .h1{
 	width: 150px;
 	background: black;
-	height:30px;
+	height:25px;
 	right:0; 
 	position: absolute;
 }
+/*bottom*/
+.b .h3{
+	width: 150px;
+	background: black;
+	height:25px;
+	right:0; 
+	bottom: 0;
+	position: absolute;
+}
+
+/*middle*/
 .a .h2{
 	width: 150px;
 	background: black;
-	height:30px;
+	height:25px;
 	right:0; 
 	top: 50%;
 	position: absolute;
-
 }
+
+.b .h2
+{
+	width:100%;
+	background: black;
+	height:25px;
+	right:0; 
+	top: 45%;
+	position: absolute;
+}
+
