@@ -1,0 +1,29 @@
+.letter{
+	display: inline-block;
+	background: yellow;
+	margin-right: 20px;
+}
+
+.s {
+	height: 130px;
+	width: 90px;
+}
+
+.s .upper-curve{
+	width: 44px;
+	height:40px;
+	border-width:14px 0 15px 15.5px;
+	border-color:solid;
+	border-top-left:50%;
+	border-bottom-left:50%;
+}
+
+.s .lower-curve{
+	width: 52px;
+	height:40px;
+	border-width:14px 0 15px 15.5px;
+	border-color:solid;
+	border-top-left:50%;
+	border-bottom-left:50%;
+	position: absolute;
+}
