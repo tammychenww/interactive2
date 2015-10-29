@@ -1,4 +1,4 @@
-.letter{
+.letter {
 	display: inline-block;
 	background: yellow;
 	margin-right: 20px;
@@ -7,23 +7,34 @@
 .s {
 	height: 130px;
 	width: 90px;
+	position: relative;
+	transform:rotate(14deg);
 }
 
-.s .upper-curve{
-	width: 44px;
+.s .upper-curve {
+	width:44px;
 	height:40px;
 	border-width:14px 0 15px 15.5px;
-	border-color:solid;
-	border-top-left:50%;
-	border-bottom-left:50%;
-}
-
-.s .lower-curve{
-	width: 52px;
-	height:40px;
-	border-width:14px 0 15px 15.5px;
-	border-color:solid;
-	border-top-left:50%;
-	border-bottom-left:50%;
+	border-color:#000000;
+	border-style:solid;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	transform:rotate(18deg);
 	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.s .lower-curve {
+	width: 52px;
+	height: 44px;
+	border-width: 14px 0 15px 15px;
+	border-color: #000;
+	border-style: solid;
+	position: absolute;
+	bottom: -8px;
+	right: 0;
+	transform:rotate(198deg);
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
 }
