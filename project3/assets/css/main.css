@@ -31,7 +31,10 @@ body{
 .n .v1,
 .o .v1,
 .p .v1,
-.q .v1
+.q .v1,
+.r .v1,
+.u .v1,
+.w .v1
 {
 	position: absolute;
 	left:0;
@@ -48,7 +51,10 @@ body{
 .m .v2,
 .n .v2,
 .o .v2,
-.q .v2 {
+.q .v2,
+.u .v2,
+.w .v2
+ {
 	position: absolute;
 	right:0;
 	height: 100%;
@@ -57,7 +63,8 @@ body{
 }
 
 /*middle*/
-.i .v3{
+.i .v3,
+.t .v3{
 	position: absolute;
 	right:44px;
 	height: 100%;
@@ -97,7 +104,8 @@ body{
 	position: absolute;
 }
 /*vertical-upper-p*/
-.p .v6
+.p .v6,
+.r .v6
 
 {
 	width: 25px;
@@ -108,7 +116,7 @@ body{
 	position: absolute;
 }
 /*vertical-lower-k*/
-.k .v6
+.k .v7
 
 {
 	width: 25px;
@@ -118,6 +126,55 @@ body{
 	bottom:0;
 	position: absolute;
 }
+/*vertical-half-left-s*/
+.s .v8
+
+{
+	width: 25px;
+	background: black;
+	height:50%;
+	left:0; 
+	top:0;
+	position: absolute;
+}
+
+/*vertical-half-right-s*/
+.s .v9
+
+{
+	width: 25px;
+	background: black;
+	height:50%;
+	right:0; 
+	bottom: 0;
+	position: absolute;
+}
+
+/*left-70%-left*/
+.v .v10
+
+{
+	width: 25px;
+	background: black;
+	height:70%;
+	left:0; 
+	top: 0;
+	position: absolute;
+}
+/*left-70%-right*/
+.v .v11
+
+{
+	width: 25px;
+	background: black;
+	height:70%;
+	right:0; 
+	top: 0;
+	position: absolute;
+}
+
+
+
 
 /*HORIZONTAL*/
 
@@ -153,7 +210,8 @@ body{
 /*top-right-out*/
 
 .o .h8,
-.p .h8
+.p .h8,
+.r .h8
 {
 	width: 127px;
 	background: black;
@@ -163,7 +221,8 @@ body{
 	position: absolute;
 }
 /*middle-left-out*/
-.p .h11
+.p .h11,
+.r .h11
 {
 	width: 127px;
 	background: black;
@@ -203,7 +262,9 @@ body{
 .j .h4,
 .i .h4,
 .r .h4,
-.q .h4
+.q .h4,
+.s .h4,
+.t .h4
 {
 	width:100%;
 	background: black;
@@ -216,7 +277,9 @@ body{
 .g .h5,
 .j .h5,
 .l .h5,
-.i .h5
+.i .h5,
+.s .h5,
+.u .h5
 {
 	width:100%;
 	background: black;
@@ -236,9 +299,10 @@ body{
 	position: absolute;
 }
 /*middle-fill*/
-.b .h2,
-.e .h2,
-.f .h2
+.b .h13,
+.e .h13,
+.f .h13,
+.s .h13
 
 {
 	width:100%;
@@ -250,7 +314,7 @@ body{
 }
 
 /*middle-fill-upper*/
-.k .h8
+.k .h12
 
 {
 	width:100%;
@@ -283,7 +347,20 @@ body{
 	top: 60%;
 	position: absolute;
 }
+
+/*bottom-fill-short*/
+.v .h14{
+	width: 60px;
+    background: black;
+    height: 25px;
+    bottom: 0;
+    left: 25px;
+    position: absolute;
+}
+
+
 /*ROTATION*/
+/*left diagonal*/
 .m .r1,
 .n .r1 {
 	width: 25px;
@@ -294,7 +371,7 @@ body{
     transform: skew(45deg,-22deg);
     position: absolute;
 }
-
+/*right diagonal*/
 .m .r2 {
 
 	width: 25px;
@@ -305,4 +382,56 @@ body{
     transform: skew(-45deg,22deg);
     position: absolute;
 }
+/*r only*/
+.r .r3 {
+	width: 34px;
+    background: black;
+    height: 93px;
+    top: 132px;
+    left: 37px;
+    transform: skew(40deg,0);
+    position: absolute;
+}
+/*v bottom-left*/
+.v .r4 {
+	width: 25px;
+    background: black;
+    height: 66px;
+    bottom: 6px;
+    left: 12px;
+    transform: skew(20deg,-22deg);
+    position: absolute;
+}
 
+/*v bottom-right*/
+.v .r5 {
+	width: 25px;
+    background: black;
+    height: 66px;
+    bottom: 6px;
+    right: 12px;
+    transform: skew(-20deg,22deg);
+    position: absolute;
+}
+
+/*left diagonal*/
+.w .r6{
+	width: 25px;
+    background: black;
+    height: 84px;
+    bottom: 5px;
+    left: 42px;
+    transform: skew(45deg,-22deg);
+    position: absolute;
+}
+/*right diagonal*/
+.w .r7{
+	width: 25px;
+    background: black;
+    height: 84px;
+    bottom: 5px;
+    right: 42px;
+    transform: skew(-45deg,22deg);
+    position: absolute;
+	
+}
