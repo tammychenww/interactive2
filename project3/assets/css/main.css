@@ -150,7 +150,7 @@ body{
 	position: absolute;
 }
 
-/*left-70%-left*/
+/*v-70%-left*/
 .v .v10
 
 {
@@ -161,7 +161,7 @@ body{
 	top: 0;
 	position: absolute;
 }
-/*left-70%-right*/
+/*v-70%-right*/
 .v .v11
 
 {
@@ -173,6 +173,38 @@ body{
 	position: absolute;
 }
 
+/*y-30%-left*/
+.y .v12
+
+{
+	width: 25px;
+	background: black;
+	height:50%;
+	left:0; 
+	top: 0;
+	position: absolute;
+}
+/*y-70%-right*/
+.y .v13
+
+{
+	width: 25px;
+	background: black;
+	height:50%;
+	right:0; 
+	top: 0;
+	position: absolute;
+}
+
+/*middle-half*/
+.y .v14{
+	position: absolute;
+	right:44px;
+	height: 50%;
+	width: 25px;
+	bottom:0;
+	background: black;
+}
 
 
 
@@ -264,7 +296,8 @@ body{
 .r .h4,
 .q .h4,
 .s .h4,
-.t .h4
+.t .h4,
+.z .h4
 {
 	width:100%;
 	background: black;
@@ -279,7 +312,8 @@ body{
 .l .h5,
 .i .h5,
 .s .h5,
-.u .h5
+.u .h5,
+.z .h5
 {
 	width:100%;
 	background: black;
@@ -396,6 +430,16 @@ body{
     position: absolute;
 }
 
+/*bottom-fill-short*/
+.y .h19{
+	width: 73px;
+    background: black;
+    height: 25px;
+    top: 87px;
+    left: 19px;
+    position: absolute;
+}
+
 /*ROTATION*/
 /*left diagonal*/
 .m .r1,
@@ -494,3 +538,41 @@ body{
     position: absolute;
 	
 }
+
+/* x-right diagonal*/
+.z .r10{
+	width: 25px;
+    background: black;
+    height: 185px;
+    top: 22px;
+    left: 42px;
+    transform: skew(-25deg,0deg);
+    position: absolute;
+	
+}
+
+
+/*.y .r10 {
+	width: 25px;
+    background: black;
+    height: 48px;
+    top: 62px;
+    left: 9px;
+    transform: skew(20deg,-22deg);
+    position: absolute;
+}
+
+
+.y .r11 {
+		width: 25px;
+    background: black;
+    height: 48px;
+    top: 62px;
+    right: 9px;
+    transform: skew(-20deg,22deg);
+    position: absolute;
+	
+}
+*/
+
+
