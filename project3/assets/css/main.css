@@ -358,6 +358,43 @@ body{
     position: absolute;
 }
 
+/*x-upper-left*/
+.x .h15{
+	width: 25px;
+    background: black;
+    height: 25px;
+    top: 0;
+    left:0;
+    position: absolute;
+}
+/*x-upper-right*/
+.x .h16{
+	width: 25px;
+    background: black;
+    height: 25px;
+    top: 0;
+    right:0;
+    position: absolute;
+}
+
+/*x-bottom-left*/
+.x .h17{
+	width: 25px;
+    background: black;
+    height: 25px;
+    bottom: 0;
+    left:0;
+    position: absolute;
+}
+/*x-bottom-right*/
+.x .h18{
+	width: 25px;
+    background: black;
+    height: 25px;
+    bottom: 0;
+    right:0;
+    position: absolute;
+}
 
 /*ROTATION*/
 /*left diagonal*/
@@ -432,6 +469,28 @@ body{
     bottom: 5px;
     right: 42px;
     transform: skew(-45deg,22deg);
+    position: absolute;
+	
+}
+/* x-left diagonal*/
+.x .r8{
+	    width: 25px;
+    background: black;
+    height: 225px;
+    top: 0px;
+    right: 42px;
+    transform: skew(18deg,0);
+    position: absolute;
+	
+}
+/* x-right diagonal*/
+.x .r9{
+	    width: 25px;
+    background: black;
+    height: 225px;
+    top: 0px;
+    left: 42px;
+    transform: skew(-18deg,0);
     position: absolute;
 	
 }
