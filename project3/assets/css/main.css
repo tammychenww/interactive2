@@ -14,7 +14,8 @@ body{
 	position: relative;
 }
 
-/*vertical*/
+/*VERTICAL*/
+
 /*left*/
 .a .v1,
 .b .v1,
@@ -28,7 +29,9 @@ body{
 .l .v1,
 .m .v1,
 .n .v1,
-.o .v1
+.o .v1,
+.p .v1,
+.q .v1
 {
 	position: absolute;
 	left:0;
@@ -44,7 +47,8 @@ body{
 .j .v2,
 .m .v2,
 .n .v2,
-.o .v2 {
+.o .v2,
+.q .v2 {
 	position: absolute;
 	right:0;
 	height: 100%;
@@ -81,7 +85,32 @@ body{
 	background: black;
 }
 
-/*horizontal*/
+/*vertical-upper-k*/
+.k .v5
+
+{
+	width: 25px;
+	background: black;
+	height:106px;
+	right:0; 
+	top:0;
+	position: absolute;
+}
+
+/*vertical-lower-k*/
+.k .v6
+
+{
+	width: 25px;
+	background: black;
+	height:99px;
+	right:0; 
+	bottom:0;
+	position: absolute;
+}
+
+/*HORIZONTAL*/
+
 /*top-left-out*/
 .a .h1,
 .b .h1,
@@ -100,9 +129,33 @@ body{
 	position: absolute;
 }
 
-/*top-right-out*/
+/*bottom-left-out*/
 
 .o .h7
+{
+	width: 127px;
+	background: black;
+	height:25px;
+	right:0;
+	bottom: 0; 
+	position: absolute;
+}
+/*top-right-out*/
+
+.o .h8,
+.p .h8
+{
+	width: 127px;
+	background: black;
+	height:25px;
+	left:0;
+	top: 0; 
+	position: absolute;
+}
+
+/*bottom-right-out*/
+
+.q .h10
 {
 	width: 127px;
 	background: black;
@@ -111,7 +164,6 @@ body{
 	bottom: 0; 
 	position: absolute;
 }
-
 /*bottom-out*/
 .b .h3,
 .c .h3,
@@ -129,7 +181,9 @@ body{
 .f .h4,
 .g .h4,
 .j .h4,
-.i .h4
+.i .h4,
+.r .h4,
+.q .h4
 {
 	width:100%;
 	background: black;
@@ -174,6 +228,31 @@ body{
 	top: 45%;
 	position: absolute;
 }
+
+/*middle-fill-upper*/
+.k .h8
+
+{
+	width:100%;
+	background: black;
+	height:25px;
+	right:0; 
+	top: 37%;
+	position: absolute;
+}
+
+/*middle-fill-lower*/
+.k .h9
+
+{
+	width:100%;
+	background: black;
+	height:25px;
+	right:0; 
+	top: 56%;
+	position: absolute;
+}
+
 /*middle-short*/
 .g .h6
 {
@@ -183,5 +262,27 @@ body{
 	right:0; 
 	top: 60%;
 	position: absolute;
+}
+/*ROTATION*/
+.m .r1,
+.n .r1 {
+	width: 25px;
+    background: black;
+    height: 84px;
+    top: 5px;
+    left: 42px;
+    transform: skew(45deg,-22deg);
+    position: absolute;
+}
+
+.m .r2 {
+
+	width: 25px;
+    background: black;
+    height: 84px;
+    top: 5px;
+    right: 42px;
+    transform: skew(-45deg,22deg);
+    position: absolute;
 }
 
