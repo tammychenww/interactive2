@@ -4,6 +4,9 @@
 
 body{
 		margin: 100px;
+		background-color: black;
+		text-align: center;
+		height: 2000px;
 	}
 
 .box{
@@ -11,8 +14,29 @@ body{
 	height: 225px;
 	background-color: #ED1A4C;
 	display: inline-block;
-	margin: 0 80px 80px 0;
+	margin: 40px;
 	position: relative;
+}
+
+a.container {
+	display: block;
+	margin-top: 200px;
+	text-decoration: none;
+}
+
+.bottom {
+	border-bottom: 800px solid #fcc779;
+	border-left: 340px solid transparent;
+	border-right: 340px solid transparent;
+	height: 0;
+	width: 800px;
+	margin: 0 auto;
+	display: none;
+    
+}
+
+.container:hover .bottom {
+	display: block;
 }
 
 /*VERTICAL*/
@@ -764,5 +788,4 @@ body{
 	
 }
 */
-
 

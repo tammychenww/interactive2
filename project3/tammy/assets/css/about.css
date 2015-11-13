@@ -4,17 +4,67 @@
 
 body{
 		margin: 100px;
+		margin-top: 200px;
+		background: black;
+		
 	}
 
+.container {
+	margin:auto 0;
+	border:1px red solid;
+}
 .box{
 	width: 110px;
 	height: 225px;
 	background-color: #ED1A4C;
 	display: inline-block;
-	margin: 0 80px 80px 0;
+	margin: 20px;
 	position: relative;
+	transform: scale(0.2);
 }
 
+.light {
+	
+	height: 133px;
+	width: 88px; 
+	cursor: pointer;
+	/*margin: 100px auto;*/
+	display: inline-block;
+	position: absolute;
+	left:80px;
+	margin-top: 29px;
+
+
+}
+
+.about {
+	height: 133px;
+	width: 88px;
+	display: inline-block;
+	position: absolute;
+	right: 84px;
+    margin-top: 29px;
+	
+}
+
+.footer {
+	height: 201px;
+    border: 6px solid blue;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.space {
+	width: 70px;
+	height: 225px;
+	display: inline-block;
+	position: relative;
+	
+	
+	
+}
 /*VERTICAL*/
 
 /*left*/
@@ -281,7 +331,7 @@ body{
 	position: absolute;
     right: 44px;
     height: 32%;
-    top: 102px;
+    top: 101px;
     width: 25px;
     background: black;
 }
@@ -764,5 +814,4 @@ body{
 	
 }
 */
-
 
