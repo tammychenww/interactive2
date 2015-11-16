@@ -93,6 +93,8 @@ body{
     margin: 0 auto;
     position: relative;
     margin-top: 100px;
+    transform: scale(0.7);
+}
 }
 
 .space {
