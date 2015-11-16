@@ -4,106 +4,41 @@
 
 body{
 		margin: 100px;
-		margin-top: 200px;
-		background: black;
-		
+		background-color: black;
+		text-align: center;
+		height: 2000px;
 	}
 
-.container {
-	margin:auto 0;
-	border:1px red solid;
-}
 .box{
 	width: 110px;
 	height: 225px;
 	background-color: #ED1A4C;
 	display: inline-block;
-	margin: 65px;
+	margin: 40px;
 	position: relative;
-	
 }
 
-.light {
-	
-	height: 133px;
-	width: 88px; 
-	cursor: pointer;
-	/*margin: 100px auto;*/
-	display: inline-block;
-	position: absolute;
-	left: 35px;
-    margin-top: 29px;
-
+a.container {
+	display: block;
+	margin-top: 200px;
+	text-decoration: none;
 }
 
-.text-light {
-    display: block;
-    position: absolute;
-    left: 37px;
-    margin-top: 175px;
-    color: yellow;
-    font-size: 20px;
-    font-family: verdana;
+.bottom {
+	border-bottom: 800px solid #fcc779;
+	border-left: 340px solid transparent;
+	border-right: 340px solid transparent;
+	height: 0;
+	width: 800px;
+	margin: 0 auto;
+	display: none;
+    
 }
 
-.about {
-	height: 133px;
-	width: 88px;
-	display: inline-block;
-	position: absolute;
-	right: 194px;
-    margin-top: 29px;
-	
+.container:hover .bottom {
+	display: block;
 }
 
-.text-about {
-    display: block;
-    position: absolute;
-    left: 208px;
-    margin-top: 175px;
-    color: white;
-    font-size: 20px;
-    font-family: verdana;
-}
-
-.home {
-	height: 133px;
-	width: 88px;
-	display: inline-block;
-	position: absolute;
-	right: 35px;
-    margin-top: 29px;
-	
-}
-
-.text-home {
-    display: block;
-    position: absolute;
-    right: 48px;
-    margin-top: 175px;
-    color: white;
-    font-size: 20px;
-    font-family: verdana;
-}
-
-.footer {
-	height: 227px;
-    border: 6px solid blue;
-    width: 490px;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 100px;
-}
-
-.space {
-	width: 70px;
-	height: 225px;
-	display: inline-block;
-	position: relative;
-	
-	
-	
-}
 /*VERTICAL*/
 
 /*left*/
@@ -370,7 +305,7 @@ body{
 	position: absolute;
     right: 44px;
     height: 32%;
-    top: 101px;
+    top: 102px;
     width: 25px;
     background: black;
 }

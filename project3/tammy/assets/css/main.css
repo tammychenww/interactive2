@@ -32,12 +32,13 @@ a.container {
 	width: 800px;
 	margin: 0 auto;
 	display: none;
+	
     
 }
 
 .container:hover .bottom {
 	display: block;
-}
+	 }
 
 /*VERTICAL*/
 

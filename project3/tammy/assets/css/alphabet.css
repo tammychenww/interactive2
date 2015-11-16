@@ -6,7 +6,7 @@ body{
 		margin: 100px;
 		margin-top: 200px;
 		background: black;
-		
+		text-align: center;
 	}
 
 .container {
@@ -20,6 +20,7 @@ body{
 	display: inline-block;
 	margin: 40px;
 	position: relative;
+
 }
 
 .light {
@@ -30,32 +31,69 @@ body{
 	/*margin: 100px auto;*/
 	display: inline-block;
 	position: absolute;
-	left:80px;
-	margin-top: 10px;
-	left: 71px;
+	left: 35px;
     margin-top: 29px;
-
 
 }
 
+.text-light {
+    display: block;
+    position: absolute;
+    left: 37px;
+    margin-top: 175px;
+    color: yellow;
+    font-size: 20px;
+    font-family: verdana;
+}
+
 .about {
-	background: black;
 	height: 133px;
 	width: 88px;
 	display: inline-block;
 	position: absolute;
-	    right: 84px;
+	right: 194px;
     margin-top: 29px;
 	
 }
 
+.text-about {
+    display: block;
+    position: absolute;
+    left: 208px;
+    margin-top: 175px;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+.home {
+	height: 133px;
+	width: 88px;
+	display: inline-block;
+	position: absolute;
+	right: 35px;
+    margin-top: 29px;
+	
+}
+
+.text-home {
+    display: block;
+    position: absolute;
+    right: 48px;
+    margin-top: 175px;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+
 .footer {
-	height: 201px;
+	height: 227px;
     border: 6px solid blue;
-    width: 400px;
+    width: 490px;
     margin: 0 auto;
     position: relative;
     margin-top: 100px;
+    transform: scale(0.7);
 }
 
 /*VERTICAL*/
